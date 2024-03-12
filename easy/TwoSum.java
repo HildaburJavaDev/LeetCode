@@ -15,11 +15,7 @@ public class TwoSum {
 		try {
 			List<String> input = input();
 			int target = Integer.parseInt(input.get(1));
-			String[] subStringNumbers = input.get(0).split("[,;\s]");
-			int numbers[] = new int[subStringNumbers.length];
-			for (int i = 0; i < subStringNumbers.length; i++) {
-				numbers[i] = Integer.parseInt(subStringNumbers[i]);
-			}
+			int numbers[] = extractArraysFromSubString(input.get(0).split("[,;\s]"));
 			System.out.println(Arrays.toString(twoSum(numbers, target)));
 		} catch (NumberFormatException ex) {
 			System.out.println("Проверьте ввод на соответствие integer. " + ex.getMessage());
@@ -37,6 +33,14 @@ public class TwoSum {
 			map.put(nums[i], i);
 		}
 		return new int[] {};
+	}
+
+	public static int[] extractArraysFromSubString(String[] subStringNumbers) {
+		int[] nums = new int[subStringNumbers.length];
+		for (int i = 0; i < subStringNumbers.length; i++) {
+			nums[i] = Integer.parseInt(subStringNumbers[i]);
+		}
+		return nums;
 	}
 
 	public static List<String> input() {
