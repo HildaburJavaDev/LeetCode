@@ -3,9 +3,12 @@
  Memory - beats 74.40%
  */
 
- class MaximumOddBinaryNumber {
+import java.util.Scanner;
+
+class MaximumOddBinaryNumber {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		System.out.println(maximumOddBinaryNumber("0101"));
+		System.out.println(maximumOddBinaryNumber(new Scanner(System.in).nextLine()));
 	}
 
 	public static String maximumOddBinaryNumber(String s) {
