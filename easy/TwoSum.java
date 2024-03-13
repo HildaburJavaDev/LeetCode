@@ -1,6 +1,5 @@
 /*
  Runtime - Beats 97.96%
- Memory - Beats 46.03%
  */
 
 import java.util.ArrayList;

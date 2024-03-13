@@ -1,6 +1,5 @@
 /*
  Runtime - beats 72.21%
- Memory - beats 74.40%
  */
 
 import java.util.Scanner;

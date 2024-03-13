@@ -1,6 +1,5 @@
 /*
  Runtime - beats 100%
- Memory - beats 82%
  */
 
 import java.util.Arrays;
