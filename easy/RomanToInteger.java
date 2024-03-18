@@ -52,6 +52,7 @@ public class RomanToInteger {
 		map.put('M', 1000);
 	}
 
+	@SuppressWarnings("resource")
 	private static String input() {
 		System.out.println("Enter the roman numbers:");
 		return new Scanner(System.in).nextLine();

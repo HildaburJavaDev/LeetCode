@@ -21,7 +21,7 @@ public class PallindromeNumber {
 		}
 		int temp = x;
 		int reversed = 0;
-		for (int i = 1; temp != 0; i *= 10) {
+		for (; temp != 0;) {
 			reversed = (reversed * 10) + temp % 10;
 			temp /= 10;
 		}
