@@ -1,8 +1,10 @@
 package medium;
 
+import java.util.Scanner;
+
 public class ReverseInteger {
 	public static void main(String[] args) {
-		System.out.println(reverse(-2147483648));
+		System.out.println(reverse(new Scanner(System.in).nextInt()));
 	}
 
 	public static int reverse(int x) {
