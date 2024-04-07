@@ -41,10 +41,8 @@ class AddTwoNumbers {
 		l2 = l2.next != null ? l2.next : null;
 		ListNode answer = answerList;
 		while (l1 != null || l2 != null || remainder != 0) {
-			System.out.println("remainder = " + remainder);
 			int digit1 = (l1 != null) ? l1.val : 0;
 			int digit2 = (l2 != null) ? l2.val : 0;
-			// System.out.println(digit1 + " " + digit2);
 			ListNode newNode = new ListNode(
 					(digit1 + digit2 + remainder >= 10) ? ((digit1 + digit2 + remainder) % 10)
 							: (digit1 + digit2 + remainder));
