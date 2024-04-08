@@ -3,6 +3,7 @@ package medium;
 import java.util.Scanner;
 
 public class ReverseInteger {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		System.out.println(reverse(new Scanner(System.in).nextInt()));
 	}
