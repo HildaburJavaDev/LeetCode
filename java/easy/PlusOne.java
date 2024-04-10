@@ -1,7 +1,3 @@
-/*
- Runtime - beats 100%
- */
-
 import java.util.Arrays;
 
 public class PlusOne {

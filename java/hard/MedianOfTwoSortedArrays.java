@@ -4,11 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/*
- Runtime - Beast 65.45%
- Memory - Beast 94.50%
- */
-
 public class MedianOfTwoSortedArrays {
 	public static void main(String[] args) {
 		try {

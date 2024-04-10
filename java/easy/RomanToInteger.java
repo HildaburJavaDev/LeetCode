@@ -2,11 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/*
- Runtime - Beats 60%
- Memory - Beats 60%
- */
-
 public class RomanToInteger {
 
 	public static void main(String[] args) {

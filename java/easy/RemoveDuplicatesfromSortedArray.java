@@ -1,7 +1,3 @@
-/*
- Runtime - beats 75.32%
- */
-
 import java.util.Scanner;
 
 public class RemoveDuplicatesfromSortedArray {

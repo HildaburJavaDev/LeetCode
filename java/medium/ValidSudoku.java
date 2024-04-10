@@ -1,10 +1,5 @@
 package medium;
 
-/*
- Runtime - beats 7.12%
- Memory - beats 8.67%
- */
-
 import java.util.HashSet;
 import java.util.Set;
 

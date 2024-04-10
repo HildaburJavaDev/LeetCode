@@ -1,7 +1,3 @@
-/*
- Runtime - beats 72.21%
- */
-
 import java.util.Scanner;
 
 class MaximumOddBinaryNumber {
