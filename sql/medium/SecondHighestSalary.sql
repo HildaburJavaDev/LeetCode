@@ -1,3 +1,5 @@
+-- task № 176
+
 SELECT (
     SELECT DISTINCT salary FROM employee
     ORDER BY 1 DESC

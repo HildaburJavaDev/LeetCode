@@ -1,3 +1,5 @@
+-- task № 262
+
 WITH trips_without_banned AS (
 	SELECT * FROM trips 
 	WHERE 
