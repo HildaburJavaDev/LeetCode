@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+// task №88
+
 public class MergeSortedArray {
 	public static void main(String[] args) {
 		int nums1[] = new int[] { 1, 2, 3, 0, 0, 0 };

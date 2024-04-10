@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// task №26
+
 public class RemoveDuplicatesfromSortedArray {
 	public static void main(String[] args) {
 		String input = input();

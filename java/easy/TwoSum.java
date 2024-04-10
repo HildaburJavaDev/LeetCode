@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+// task №1
+
 public class TwoSum {
 	public static void main(String[] args) {
 		try {

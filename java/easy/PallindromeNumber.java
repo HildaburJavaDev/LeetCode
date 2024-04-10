@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// task №9
+
 public class PallindromeNumber {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

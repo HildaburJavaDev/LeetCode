@@ -3,6 +3,8 @@ package medium;
 import java.util.HashSet;
 import java.util.Set;
 
+// task №36
+
 public class ValidSudoku {
 	public static void main(String[] args) {
 		char[][] grid = {

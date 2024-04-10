@@ -2,6 +2,8 @@ package medium;
 
 import java.util.Scanner;
 
+// task №7
+
 public class ReverseInteger {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

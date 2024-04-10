@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// task №58
+
 public class LengthOfLastWord {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

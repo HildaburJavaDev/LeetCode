@@ -1,3 +1,6 @@
+
+// task №27
+
 public class RemoveElement {
 	public static void main(String[] args) {
 		int nums[] = new int[] { 3, 2, 2, 3 };

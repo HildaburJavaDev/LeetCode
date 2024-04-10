@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// task №2864
+
 class MaximumOddBinaryNumber {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
