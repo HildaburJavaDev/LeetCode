@@ -1,4 +1,4 @@
-package sql.medium;
+package medium;
 
 // task № 19
 
