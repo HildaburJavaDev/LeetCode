@@ -33,6 +33,4 @@ SELECT tab.customer_id, COUNT(*)  AS count_no_trans FROM (
     WHERE t.transaction_id IS NULL
 ) AS tab
 GROUP BY tab.customer_id
-
-
 ```
