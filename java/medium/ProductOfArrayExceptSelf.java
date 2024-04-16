@@ -2,8 +2,6 @@ package medium;
 
 // task № 238
 
-import java.util.Arrays;
-
 public class ProductOfArrayExceptSelf {
 	public static void main(String[] args) {
 		int[] answer = productExceptSelf(new int[] { 1, 2, 3, 4 });
