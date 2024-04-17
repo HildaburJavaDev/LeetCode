@@ -1,3 +1,5 @@
+-- task № 550
+
 WITH cte AS 
 (   
     SELECT player_id FROM
